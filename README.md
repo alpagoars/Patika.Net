@@ -1,1 +1,2 @@
-# Patika.net
+# Patika.Net
+Projelerimin bulunduğu depo
