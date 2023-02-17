@@ -1,0 +1,44 @@
+     //Aritmetik 
+        static void Main(string[] args)
+        {
+             
+            int islem;
+            int x;
+            int y;
+             
+            // toplama
+            islem = (x + y);
+            Console.WriteLine("sonuç: " + islem);
+             
+            // cikarma
+            islem = (x - y);
+            Console.WriteLine("sonuç: " + islem);
+             
+            // carpma
+            islem = (x * y);
+            Console.WriteLine("sonuç: "+ islem);
+             
+            // bolme
+            islem = (x / y);
+            Console.WriteLine("sonuc: " + islem);
+             
+            // Mod
+            islem = (x % y);
+            Console.WriteLine("sonuc: " + islem);
+        }
+    }
+}
+// Mantıksal Operatörler
+
+||(veya) operatörü iki değerden birisi doğru ise doğru, ikisi de yanlış ise yanlış değerini döndürür ayrıca önceliği en az olan mantıksal operatördür.
+&&(ve) operatörü iki değerin ikisi de doğru ise doğru, en az birisi yanlış ise yanlış değerini döndürür.
+&&(ve), ||(veya) operatörleri aritmetik, karşılaştırma ve bitsel operatörlere göre düşük önceliklidir fakat kendi aralarındaki öncelik sıralaması &&(ve), ||(veya) şeklindedir.
+!(değil) operatörü aritmetik operatörlerden (++)arttırma ve (--)eksiltme operatörleri ile eşit önceliklidir.
+
+//İlişkisel Operatörler
+<(küçüktür)
+>(büyüktür), 
+<=(küçük veya eşittir),
+>=(büyük veya eşittir), 
+==(eşittir), 
+!=(eşit değildir).
