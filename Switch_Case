@@ -1,0 +1,34 @@
+int month = DateTime.Now.Month;
+            //experssion
+            switch(month)
+            {
+                case 1:
+                    Console.WriteLine("Ocak Ayındasın ");
+                    break;
+                case 2:
+                    Console.WriteLine("Şubat Ayındasın");
+                    break;
+                case 3:
+                    Console.WriteLine("Mart Ayındasın");
+                    break;
+                case 4:
+                    Console.WriteLine("Nisan Ayındasın");
+                    break;
+                    
+                case 5:
+                    Console.WriteLine("Mayıs Ayındasın ");
+                    break;
+                case 6:
+                    Console.WriteLine("Haziran Ayındasın");
+                    break;
+                case 7:
+                    Console.WriteLine("Temmuz Ayındasın");
+                    break;
+                case 8:
+                    Console.WriteLine("Ağustos Ayındasın");
+                    break;
+                default:
+                    Console.WriteLine("Yanlış Veri Girişi");
+                    break;
+
+            }
