@@ -1,2 +1,2 @@
 # Patika.Net
-Projelerimin bulunduğu depo
+ Başlangıç Seviyesi .Net Core Patikası projelerimin bulunduğu repo
