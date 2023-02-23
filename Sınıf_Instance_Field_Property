@@ -1,0 +1,50 @@
+
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        //Access Modifiers
+        // * Public
+        // * Private
+        // * Internal
+        // * Protected
+
+
+
+
+        Employee employeeOne = new Employee();
+        employeeOne.Name = "Samet";
+        employeeOne.LastName = "Arslan";
+        employeeOne.No = 181818;
+        employeeOne.Department = "IT";
+
+        employeeOne.GetEmployeeInfo();
+       
+
+        Employee employeeTwo = new Employee();
+        employeeTwo.Name = "Eren";
+        employeeTwo.LastName = "Yıldız";
+        employeeTwo.No = 616161;
+        employeeTwo.Department = "DT";
+
+        employeeTwo.GetEmployeeInfo();
+       
+    }
+
+    class Employee
+    {
+        public string Name;
+        public string LastName;
+        public int No;
+        public string Department;
+
+        public void GetEmployeeInfo()
+        {
+            Console.WriteLine("Name of the employee: {0}",Name);
+            Console.WriteLine("Last Name of the employee: {0}",LastName);
+            Console.WriteLine("Id of the employee: {0}",No);
+            Console.WriteLine("Department of the employee: {0}",Department);
+        }
+    }
+}
