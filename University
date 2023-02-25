@@ -1,0 +1,33 @@
+class Program
+{
+    class University
+    {
+        List<Sinif> siniflar;
+        List<Departman> departmanlar;
+        List<bolumler> bolumler;
+        
+    }
+
+    class Departman
+    {
+        List<bolumler> bolumler;
+    }
+
+    class bolumler
+    {
+        Calisan calisan;
+    }
+
+    class Calisan
+    {
+        string ad;
+        string soyad;
+        string unvan;
+        int maas;
+        int calismaYili;
+    }
+    public class Sinif
+    {
+
+    }
+}
